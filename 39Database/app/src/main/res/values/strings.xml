@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">39Database</string>
+    <string name="scientific_name">Scientific name</string>
+    <string name="add">Add</string>
+    <string name="common_name">Common name</string>
+    <string name="_10">10</string>
+    <string name="common_name_format">%1$s (%2$d)</string>
+    <string name="menu_delete_cat_race">Delete</string>
+    <string name="menu_aww_so_cute">Awww, so cute :3</string>
+</resources>

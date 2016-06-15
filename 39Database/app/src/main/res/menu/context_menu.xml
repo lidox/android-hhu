@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- See 29ContextMenu on how to create context menues -->
+    <item
+        android:id="@+id/menu_delete_cat_race"
+        android:title="@string/menu_delete_cat_race"/>
+    <item
+        android:id="@+id/menu_aww_so_cute"
+        android:title="@string/menu_aww_so_cute"/>
+
+</menu>

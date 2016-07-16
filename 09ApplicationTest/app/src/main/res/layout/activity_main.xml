@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:id="@+id/topmost_layout"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:ignoreGravity="@+id/comparison_view"
+    tools:context="de.hhu.a09applicationtest.MainActivity">
+
+    <Button
+        android:id="@+id/jumping_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="jumpingButtonClick"
+        android:text="@string/make_me_jump_label"/>
+
+    <TextView
+        android:id="@+id/comparison_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="false"
+        android:layout_alignParentLeft="false"
+        android:layout_alignParentRight="false"
+        android:layout_alignParentStart="false"
+        android:gravity="center"
+        android:text="@string/comparison_label"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:visibility="invisible"/>
+</RelativeLayout>

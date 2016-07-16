@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">09ApplicationTest</string>
+    <string name="make_me_jump_label">Make me jump!</string>
+    <string name="comparison_label">Comparison label</string>
+</resources>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory
+        android:title="@string/pets_category">
+        <ListPreference
+            android:defaultValue="de.hhu.reptile.alligator"
+            android:entries="@array/pet_species"
+            android:entryValues="@array/pet_species_values"
+            android:key="pets_species"
+            android:summary="@string/pets_species_summary"
+            android:title="@string/pets_species"/>
+
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="pet_is_alive"
+            android:summary="@string/pet_is_alive_summary"
+            android:title="@string/pet_is_alive"/>
+
+        <EditTextPreference
+            android:defaultValue="Gummy"
+            android:key="pets_name"
+            android:summary="@string/pets_name_summary"
+            android:title="@string/pets_name"/>
+    </PreferenceCategory>
+</PreferenceScreen>

@@ -22,15 +22,15 @@ public abstract class CatRaceAdderTask extends AsyncTask<Void, Cursor, Void> {
         publish();
 
         delay();
+        helper.addCatRace("Eurasian Lynx", "Lynx lynx", 30);
+        publish();
+
+        delay();
         helper.addCatRace("Siamese Cat", "Felis silvestris catus siamensis", 6);
         publish();
 
         delay();
         helper.addCatRace("Savannah Cat", "Felis silvestris catus savanniensis", 12);
-        publish();
-
-        delay();
-        helper.addCatRace("Eurasian Lynx", "Lynx lynx", 30);
         publish();
 
         delay();

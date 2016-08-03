@@ -45,6 +45,7 @@ public class MainActivity extends AppCompatActivity {
                 // Fetch all t3h c4tz (none are available, as we just cleared the database)
                 Cursor cursor;
                 cursor = mCatRacesDbHelper.getAllCatRaces();
+                cursor.moveToFirst(); // to initialize the cursor in background thread (strict mode)
                 return cursor;
             }
 

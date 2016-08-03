@@ -71,7 +71,7 @@ public class CatRacesContract {
             };
 
             // The sort order (ascending by scientific name)
-            String sortOrder = CatRace.COLUMN_NAME_SCIENTIFIC_NAME + " ASC";
+            String sortOrder = CatRace.COLUMN_NAME_CUTENESS + " ASC";
 
             // Do the query!
             return db.query(CatRace.TABLE_NAME, // table name

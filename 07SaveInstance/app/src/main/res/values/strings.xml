@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">A07SaveInstance</string>
+    <string name="observe_label">Please observe the logcat.</string>
+    <string name="quit_label">Quit</string>
+    <string name="start_slave_label">Start slave</string>
+    <string name="minus_label">-</string>
+    <string name="plus_label">+</string>
+    <string name="slave_label">This is the slave activity.</string>
+    <string name="finish_label">finish()</string>
+    <string name="turn_screen_label">Try turning the screen and observe the number and the logcat.</string>
+</resources>
